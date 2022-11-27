@@ -44,10 +44,12 @@ function App() {
     
     
           <Routes>
-            <Route path="/about" element={<About />}>
-            </Route>
-            <Route path="/" element={<TextForm heading="Enter text to analyze"  mode={mode} showAlert={showAlert} />}>
-            </Route>
+        
+          <Route exact path="/" element={<TextForm heading="Enter text to analyze"  mode={mode} showAlert={showAlert} />}>
+            <Route exact path="/about" element={<About />}>
+            
+          
+           
           </Routes>
       
       </div>
