@@ -40,7 +40,7 @@ function App() {
     < BrowserRouter>
       <Navbar title="text editor" aboutText="about us" toggleMode={darkMode} mode={mode}/>
       <Alert alert={alert}/>
-      <div className="container">
+     // <div className="container">
     
     
           <Routes>
@@ -52,7 +52,7 @@ function App() {
            
           </Routes>
       
-      </div>
+     // </div>
  
  </BrowserRouter>
  </>
